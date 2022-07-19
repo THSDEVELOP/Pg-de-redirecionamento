@@ -1,0 +1,23 @@
+body{
+    background-image: url(../img/Mundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.credit {
+    background: rgba(0, 0, 0, 0.753);
+    font-size: 1.3em;
+    color: whitesmoke;
+    border-radius: 0.5em;
+}
+
+.credit a {
+    color: rgb(76, 243, 187);
+    transition: 1s;
+}
+
+.credit a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 8px white;
+}
